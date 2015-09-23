@@ -3,7 +3,12 @@
 }
 
 header {
-	border-bottom: 9px solid #222
+	border-top: 9px solid #333;
+}
+
+
+hr {
+	clear: both;
 }
 
 h1 {
@@ -67,10 +72,6 @@ h2 span {
 	font-weight: bold;
 }
 
-hr {
-	clear: both;
-}
-
 .next-quote {
 	color: #f84342;
 	font-family: 'nobilemedium_italic', san-serif;
@@ -95,5 +96,5 @@ hr {
 }
 
 ::selection {
-	background-color: #f84342;
+	background-color: #57f238;
 }

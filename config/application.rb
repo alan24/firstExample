@@ -21,10 +21,10 @@ module Splurty
     # config.i18n.default_locale = :de
 
     # Add the fonts patch
-    config.assets.paths << '#{Rails.net}/app/assets/fonts'
+    config.assets.paths << '#{Rails.root}/app/assets/fonts'
 
     # Precompile additional assets
-    config.assets.precompile += %w( .svg .eot .woff .woff2 .ttf )
+    config.assets.precompile += %w( .svg .eot .woff .ttf )
     
   end
 end
