@@ -17,6 +17,11 @@ h2 {
 
 }
 
+h2 span {
+	color: #ddd;
+	font-family: 'nobileregular', sans-serif;
+}
+
 .circle {
     font-weight:bold;
     font-style: italic;
@@ -77,4 +82,18 @@ hr {
 	font-size: italic;
 	text-align: right;
 	font-size: 10px;
+}
+
+@media (max-width: 760px) {
+	.footer-blurb{
+		text-align: left;
+	}
+}
+
+.modal {
+	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+::selection {
+	background-color: #f84342;
 }
