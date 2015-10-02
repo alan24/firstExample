@@ -10,5 +10,6 @@ class QuotesControllerTest < ActionController::TestCase
    	test "quote show page, not found" do
    		get :show, :id => 'OMG'
    		assert_response :not_found
-	end
+	 end
+
 end

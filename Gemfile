@@ -38,6 +38,7 @@ gem 'simple_form'
 
 # better test writing gem
 gem 'factory_girl_rails', '~> 4.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
